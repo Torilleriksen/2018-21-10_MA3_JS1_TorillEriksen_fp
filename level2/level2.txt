@@ -5,17 +5,40 @@ Level 2
 1. In your own words, describe what JavaScript Code Style is.
 
 2. What is a Regular Expression?
+a regular expression is more commonly called 'regex' for short. A reges expession essetially 
+a search engine for strings. You can use it to find matching patterns within your strings and code. 
 
 3. What does the .random() method do?
+This method basically returns as the name implies a random. 
 
 4. What does the .sort() method do?
+The .sort method is a function used for arrays and it will assort the array alphabetically or
+by number. It can sort the array from smallest to biggest or opposite, by default it will start with the lowest number. 
 
 5. What does the .reverse() method do?
+The .reverse() method is another function used on arrays and will reverse the order of an array making the last element in the array the first one etc.
 
 6. List two examples of bad JavaScript code.
 
+if('4'== 4) 
+   console.log('true');
+
+In this example we can see two bad examples of JavaScripts code. One being the double equal signs, in JS this is'nt precise 
+enough and the value of these two will come back true even though they are two different variable types. 
+The second part that is bad about this code is that JS let's us run blockless statements or statements without these= {}. 
+
 7. What data types can a JSON object contain?
+These are the types of dadta that a JSON object can contain: 
+Objects
+Arrays
+Strings
+Numbers
+Booleans
+Null
 
 8. What is minifying JavaScript Code?
+When talking about minifying JavaScript Code we are refering to making our JavaScript as efficient as possible in the way 
+that we want to eliminate all the unneessary code without changing or effecting the functionality or resuld of the code. 
 
 9. What is a global variable?
+A global variable is a variable that has effect and can be reached by all your code and not just inside a function. 
